@@ -6,12 +6,6 @@
             <ditaval href="../flowers.ditamap"/>
         </profile>
     </context>
-    <context id="LbYkPaCKLboRutO" name="Summer Only">
-        <input href="../flowers.ditamap"/>
-        <profile>
-            <ditaval href="../summer_flowers.ditamap"/>
-        </profile>
-    </context>
     <context id="BXHWmydQJwCwzID" name="Spring Flowers">
         <input href="../flowers.ditamap"/>
         <profile>
@@ -29,10 +23,5 @@
         <context idref="BXHWmydQJwCwzID"/>
         <output href="pdf-output"/>
         <publication idref="pdf"/>
-    </deliverable>
-    <deliverable id="sumer-1697196053438" name="Summer Only">
-        <context idref="LbYkPaCKLboRutO"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
     </deliverable>
 </project>
