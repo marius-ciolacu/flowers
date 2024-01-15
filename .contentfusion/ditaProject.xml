@@ -13,4 +13,9 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
+    <deliverable id="d-Spring_as_PDF-1705305121770" name="Spring as PDF">
+        <context idref="SBcyFZZjVyATSVI"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf"/>
+    </deliverable>
 </project>
