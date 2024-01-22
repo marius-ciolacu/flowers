@@ -6,4 +6,10 @@
             <ditaval href="../flowers.ditamap"/>
         </profile>
     </context>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
+    <deliverable id="d-All_Flowers-1705929197461" name="All Flowers">
+        <context idref="VoAkGDEnesOjIMC"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
 </project>
