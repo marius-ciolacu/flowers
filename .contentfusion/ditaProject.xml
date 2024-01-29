@@ -9,7 +9,7 @@
     <publication id="webhelp" transtype="webhelp-responsive"/>
     <deliverable id="d-Flowers_WH-1706527925197" name="Flowers WH">
         <context idref="nAtkTNfUgTXrWUl"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf"/>
     </deliverable>
 </project>
