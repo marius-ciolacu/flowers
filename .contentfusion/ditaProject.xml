@@ -6,18 +6,7 @@
             <ditaval href="../spring_flowers.ditamap"/>
         </profile>
     </context>
-    <context id="VoAkGDEnesOjIMC" name="Flowers All">
-        <input href="../flowers.ditamap"/>
-        <profile>
-            <ditaval href="../flowers.ditamap"/>
-        </profile>
-    </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
-    <deliverable id="d-All_Flowers-1705929197461" name="All Flowers">
-        <context idref="VoAkGDEnesOjIMC"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
-    </deliverable>
     <deliverable id="d-Spring_flowers-1706188897534" name="Spring flowers">
         <context idref="nAtkTNfUgTXrWUl"/>
         <output href="webhelp-output"/>
