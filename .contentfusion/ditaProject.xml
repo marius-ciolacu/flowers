@@ -15,7 +15,7 @@
     </deliverable>
     <deliverable id="d-PDF-1706528932793" name="PDF">
         <context idref="nAtkTNfUgTXrWUl"/>
-        <output href="pdf-output"/>
-        <publication idref="pdf"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
     </deliverable>
 </project>
