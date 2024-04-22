@@ -7,8 +7,8 @@
     <publication id="pdf" transtype="pdf-css-html5"/>
     <deliverable id="d-Flowers_WH-1706601562407" name="Flowers WH">
         <context idref="CuslLDlbzFCebGU"/>
-        <output href="pdf-output"/>
-        <publication idref="pdf"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
     </deliverable>
     <deliverable id="d-PDF_version-1709560631783" name="PDF version">
         <context idref="CuslLDlbzFCebGU"/>
