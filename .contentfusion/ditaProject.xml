@@ -28,9 +28,4 @@
         <output href="pdf-output"/>
         <publication idref="pdf"/>
     </deliverable>
-    <deliverable id="d-Test-1713329423216" name="Test">
-        <context idref="CuslLDlbzFCebGU"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
-    </deliverable>
 </project>
