@@ -23,9 +23,4 @@
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
     <publication id="pdf" transtype="pdf-css-html5"/>
-    <deliverable id="d-PDF_version-1709560631783" name="PDF version">
-        <context idref="CuslLDlbzFCebGU"/>
-        <output href="pdf-output"/>
-        <publication idref="pdf"/>
-    </deliverable>
 </project>
