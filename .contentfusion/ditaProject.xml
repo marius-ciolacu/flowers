@@ -33,4 +33,9 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
+    <deliverable id="d-Flowers-1718175283220" name="Flowers">
+        <context idref="CuslLDlbzFCebGU"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
 </project>
