@@ -34,9 +34,10 @@
         <publication idref="webhelp"/>
     </deliverable>
     <deliverable id="d-Flowers-1718175283220" name="Flowers">
-        <?enableEditInWorkspace?>
         <context idref="CuslLDlbzFCebGU"/>
         <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
+        <publication idref="webhelp">
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
+        </publication>
     </deliverable>
 </project>
