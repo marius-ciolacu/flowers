@@ -40,13 +40,6 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
-    <deliverable id="d-errr-1719986917170" name="errr">
-        <context idref="dbBXAeXsnsUMbSS"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-        </publication>
-    </deliverable>
     <deliverable id="d-Latest-1719987072035" name="Latest">
         <context idref="CuslLDlbzFCebGU"/>
         <output href="pdf-output"/>
