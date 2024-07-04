@@ -33,11 +33,4 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
-    <deliverable id="d-Latest-1719987072035" name="Latest">
-        <context idref="CuslLDlbzFCebGU"/>
-        <output href="pdf-output"/>
-        <publication idref="pdf">
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-        </publication>
-    </deliverable>
 </project>
