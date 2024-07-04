@@ -30,4 +30,11 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
+    <deliverable id="d-Summer_Flowers_as_PDF-1720094855347" name="Summer Flowers as PDF">
+        <context idref="DjmlUTpTsEYsqIn"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf">
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
 </project>
