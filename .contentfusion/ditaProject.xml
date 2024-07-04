@@ -33,13 +33,6 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
-    <deliverable id="d-Flowers-1718175283220" name="Flowers">
-        <context idref="CuslLDlbzFCebGU"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-        </publication>
-    </deliverable>
     <deliverable id="d-Latest-1719987072035" name="Latest">
         <context idref="CuslLDlbzFCebGU"/>
         <output href="pdf-output"/>
