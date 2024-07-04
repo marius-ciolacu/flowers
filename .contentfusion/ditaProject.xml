@@ -28,9 +28,4 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
-    <deliverable id="d-New_one-1718015727797" name="New one">
-        <context idref="DjmlUTpTsEYsqIn"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
-    </deliverable>
 </project>
