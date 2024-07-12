@@ -36,7 +36,7 @@
         <output href="pdf-output"/>
         <publication idref="pdf">
             <param name="webhelp.publishing.template" path="../17"/>
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
 </project>
