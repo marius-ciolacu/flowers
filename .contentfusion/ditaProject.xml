@@ -27,7 +27,7 @@
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param name="webhelp.publishing.template" path="../publising/flowers"/>
+            <param name="webhelp.publishing.template" value="../publising/flowers"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
@@ -35,7 +35,7 @@
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="pdf-output"/>
         <publication idref="pdf">
-            <param name="webhelp.publishing.template" path="../17"/>
+            <param name="webhelp.publishing.template" value="../17"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
