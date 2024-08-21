@@ -43,7 +43,7 @@
         <context idref="CuslLDlbzFCebGU"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param name="webhelp.publishing.template" value="cf://templates/Aluminum"/>
+            <param name="webhelp.publishing.template" value="cf://templates/Gallium"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
