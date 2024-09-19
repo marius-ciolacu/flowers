@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><publishing-template>
     <name>Custom Template</name>
     <webhelp>
-        <preview-image file="preview/generated-preview.svg"/>
+        <preview-image file="preview/generated-preview.png"/>
         <resources>
             <css file="custom.css"/>
             <css file="styles.css"/>
@@ -17,7 +17,7 @@
         </parameters>
     </webhelp>
     <pdf>
-        <preview-image file="preview/generated-preview.svg"/>
+        <preview-image file="preview/generated-preview.png"/>
         <resources>
             <css file="custom.css"/>
             <css file="styles.css"/>
