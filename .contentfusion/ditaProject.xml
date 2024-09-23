@@ -35,7 +35,7 @@
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="pdf-output"/>
         <publication idref="pdf">
-            <param name="pdf.publishing.template" value=".contentfusion/templates/Ak2"/>
+            <param name="pdf.publishing.template" value=".contentfusion/templates/O2"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
