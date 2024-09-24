@@ -1,5 +1,5 @@
 /*#
-@colors&{"titlesAccentColor":"#d0021b","labelsAccentColor":"#878787","linksAccentColor":"#5185cb","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
+@colors&{"titlesAccentColor":"#9013fe","labelsAccentColor":"#9013fe","linksAccentColor":"#9013fe","backgroundAccentColor":"#9013fe","isDefault":true}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
 @aspects&wh-tiles,accent-colors-selector,wh-menu-page-colors-white-color-black-bg,wh-breadcrumb-colors-labels-colors-bg,wh-search-component-background-color-dark,wh-footer-background-color-dark,fonts-selector,wh-search-component-padding-extra-extra-large,notes-layout-two-lines,notes-style-borders-box,notes-colors-colorful,table-colors-black-white,wh-tiles-themes-titles-and-link-bg&aspects@
@@ -68,26 +68,26 @@
 *[class~="placeholder/figurelist"] > *[class~="topic/title"],
 *[class~="placeholder/tablelist"] > *[class~="topic/title"],
 *[class~="index/groups"]::before {
-  color: #d0021b;
+  color: #9013fe;
 }
 *[class~='topic/shortdesc']:before {
-  color: #878787;
+  color: #9013fe;
 }
 *[class~='topic/xref'],
 *[class~='topic/link'] {
-  color: #5185cb;
+  color: #9013fe;
 }
 .related-links a,
 .related-links a:visited {
-  color: #5185cb;
+  color: #9013fe;
 }
 a,
 a:hover,
 a:visited {
-  color: #5185cb;
+  color: #9013fe;
 }
 *[class~='topic/table'] th {
-  background-color: #dce5f2;
+  background-color: #9013fe;
 }
 /*fonts-selector*/
 @page {
@@ -156,20 +156,20 @@ span.note__title {
 /*wh-tiles-themes-titles-and-link-bg*/
 .wh_tile {
   border-radius: 8px;
-  background-color: #dce5f2;
+  background-color: #9013fe;
 }
 .wh_tile_title {
   text-align: center;
   font-size: 1.5em;
 }
 .wh_tile_title a {
-  color: #5185cb;
+  color: #9013fe;
 }
 .wh_tile_shortdesc {
   margin-top: 1em;
   margin-bottom: 0.5em;
   text-align: center;
-  color: #d0021b;
+  color: #9013fe;
 }
 /*wh-menu-page-colors-white-color-black-bg*/
 .wh_header {
@@ -196,7 +196,7 @@ span.note__title {
 }
 /*wh-search-component-background-color-dark*/
 .wh_search_input {
-  background-color: #92aed6;
+  background-color: #5b01aa;
 }
 /*wh-search-component-padding-extra-extra-large*/
 .wh_search_input {
@@ -204,6 +204,6 @@ span.note__title {
 }
 /*wh-footer-background-color-dark*/
 .wh_footer {
-  background-color: #6c92c9;
+  background-color: #400177;
 }
 
