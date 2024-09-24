@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg version="1.1" viewBox="0 0 350 850" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="Arrow2" overflow="visible" markerHeight="5.5999999" markerWidth="7.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 7.7 5.6">
+   <path id="arrow2L" transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="Arrow2-8" overflow="visible" markerHeight="5.5999999" markerWidth="7.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="Arrow2-0" overflow="visible" markerHeight="5.5999999" markerWidth="7.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="Arrow2-80" overflow="visible" markerHeight="5.5999999" markerWidth="7.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="Arrow2-3" overflow="visible" markerHeight="5.5999999" markerWidth="7.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="Arrow2-7" overflow="visible" markerHeight="5.5999999" markerWidth="7.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+  <marker id="Arrow2-3-7" overflow="visible" markerHeight="5.5999999" markerWidth="7.6999998" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 7.7 5.6">
+   <path transform="scale(.7)" d="m-2-4 11 4-11 4c2-2.33 2-5.66 0-8z" fill="context-stroke" fill-rule="evenodd"/>
+  </marker>
+ </defs>
+ <g fill-opacity="0" stroke="#333" stroke-linecap="square">
+  <rect x="30.227" y="67.752" width="111.5" height="51.024" rx="15.499" ry="15.499" opacity=".91" stroke-width="1.8898" style="paint-order:markers stroke fill"/>
+  <rect x="30.227" y="278.75" width="111.5" height="51.024" opacity=".91" stroke-width="1.8898" style="paint-order:markers stroke fill"/>
+  <path transform="matrix(2.668 0 0 2.0506 64.348 145.38)" d="m28.8 26.13-10.43 17.874-20.694-0.095365-10.265-17.969 10.43-17.874 20.694 0.095365z" opacity=".91" stroke-width=".80794" style="paint-order:markers stroke fill"/>
+  <g stroke-width="1.8898">
+   <rect x="30.227" y="373.03" width="111.5" height="51.024" opacity=".91" style="paint-order:markers stroke fill"/>
+   <rect x="30.227" y="467.31" width="111.5" height="51.024" opacity=".91" style="paint-order:markers stroke fill"/>
+   <rect x="30.227" y="561.59" width="111.5" height="51.024" opacity=".91" style="paint-order:markers stroke fill"/>
+   <rect x="30.227" y="655.87" width="111.5" height="51.024" opacity=".91" style="paint-order:markers stroke fill"/>
+  </g>
+  <path transform="matrix(3.7795 0 0 3.7795 68.965 101.04)" d="m55.407 143.14-14.209-14.209 14.209-14.209 14.209 14.209z" opacity=".91" stroke-width=".5" style="paint-order:markers stroke fill"/>
+ </g>
+ <g fill="none" stroke="#000">
+  <g stroke-width="1.0016">
+   <path d="m85.975 119.72v35.329" marker-end="url(#Arrow2)"/>
+   <path d="m85.975 235.75v35.329" marker-end="url(#Arrow2-8)"/>
+   <path d="m85.975 330.62v35.329" marker-end="url(#Arrow2-0)"/>
+   <path d="m85.975 425.11v35.329" marker-end="url(#Arrow2-80)"/>
+   <path d="m85.975 518.84v35.329" marker-end="url(#Arrow2-3)"/>
+   <path d="m85.975 613.28v35.329" marker-end="url(#Arrow2-7)"/>
+   <path d="m141.11 588.35h75.702" marker-end="url(#Arrow2-3-7)"/>
+  </g>
+  <path d="m278.45 533.56v-38.963h-129.68" marker-end="url(#Arrow2-7)" stroke-width="1px"/>
+  <path d="m277.95 642.26v41.705h-129.18" marker-end="url(#Arrow2-7)" stroke-width="1px"/>
+ </g>
+ <g font-family="Roboto" font-size="10.667px" letter-spacing="0px">
+  <text x="85.834518" y="189.99303" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="85.834518" y="189.99303" text-align="center">Prepare C++</tspan><tspan x="85.834518" y="203.3264" text-align="center">Code for Code</tspan><tspan x="85.834518" y="216.65977" text-align="center">Generation</tspan></text>
+  <text x="86.818893" y="91.331383" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="86.818893" y="91.331383" text-align="center">Identify Function to </tspan><tspan x="86.818893" y="104.66476" text-align="center">Generate Code for</tspan></text>
+  <text x="85.488159" y="307.9465" style="line-height:1.25" xml:space="preserve"><tspan x="85.488159" y="307.9465" text-align="center" text-anchor="middle">Specify Input Types</tspan></text>
+  <text x="86.855354" y="679.2016" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="86.855354" y="679.2016" text-align="center">Deploy Generated </tspan><tspan x="86.855354" y="692.53497" text-align="center">Code</tspan></text>
+  <text x="85.857956" y="396.78049" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="85.857956" y="396.78049" text-align="center">Check for Run-Time</tspan><tspan x="85.857956" y="410.11386" text-align="center">Issues</tspan></text>
+  <text x="53.591492" y="591.04852" style="line-height:1.25" xml:space="preserve"><tspan x="53.591492" y="591.04852">Generate Code</tspan></text>
+  <text x="85.488159" y="493.35977" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="85.488152" y="493.35977" text-align="center">Configure Build </tspan><tspan x="85.488159" y="506.69315" text-align="center">Settings</tspan></text>
+  <text x="276.25937" y="584.5979" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="276.25937" y="584.5979" text-align="center">Does code meet</tspan><tspan x="276.25937" y="597.93127" text-align="center">Requirements?</tspan></text>
+ </g>
+</svg>
