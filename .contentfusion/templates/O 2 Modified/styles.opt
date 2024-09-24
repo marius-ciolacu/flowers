@@ -2,7 +2,7 @@
 <publishing-template>
     <name>Custom Template</name>
     <webhelp>
-        <preview-image file="preview/generated-preview.png"/>
+        <preview-image file="preview/preview.jpg"/>
         <resources>
             <css file="custom.css"/>
             <css file="styles.css"/>
@@ -18,7 +18,7 @@
         </parameters>
     </webhelp>
     <pdf>
-        <preview-image file="preview/generated-preview.png"/>
+        <preview-image file="preview/preview.jpg"/>
         <resources>
             <css file="custom.css"/>
             <css file="styles.css"/>
