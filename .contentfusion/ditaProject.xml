@@ -47,14 +47,6 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
-    <deliverable id="d-Fake_Netlify-1726491026587" name="Fake Netlify">
-        <context idref="DjmlUTpTsEYsqIn"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param name="webhelp.publishing.template" value="cf://templates/Oxygen"/>
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-        </publication>
-    </deliverable>
     <deliverable id="d-another_one-1726559717081" name="another one">
         <context idref="rVzOIRJPuxXlwZs"/>
         <output href="webhelp-output"/>
