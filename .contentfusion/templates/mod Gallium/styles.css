@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+/*#
+@colors&{"titlesAccentColor":"#000000","labelsAccentColor":"#e1f5fe","linksAccentColor":"#1a73e8","backgroundAccentColor":"#e8eaed","isDefault":true}&colors@
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tiles,accent-colors-selector,fonts-selector,code-font-roboto-mono,unordered-list-bullet-disc,table-style-bottom-border,notes-style-borders-square,notes-colors-colorful,toc-numbering-deep,left-pages-header-publication-title,right-pages-header-publication-title,wh-search-component-colors-white,wh-menu-page-colors-titles-color-no-bg,wh-footer-background-color&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
+@info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
+#*/
+@font-face {
+  font-family: 'BrandingFont';
+  src: url(resources/primaryBrandingFonts.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BrandingFont';
+  src: url(resources/primaryBrandingFonts-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BrandingFont';
+  src: url(resources/primaryBrandingFonts-Italic.ttf) format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'BrandingFont';
+  src: url(resources/primaryBrandingFonts-BoldItalic.ttf) format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SecondaryBrandingFont';
+  src: url(resources/secondaryBrandingFonts.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SecondaryBrandingFont';
+  src: url(resources/secondaryBrandingFonts-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SecondaryBrandingFont';
+  src: url(resources/secondaryBrandingFonts-Italic.ttf) format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SecondaryBrandingFont';
+  src: url(resources/secondaryBrandingFonts-BoldItalic.ttf) format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+/* Bold selection in Publication TOC. WebHelp only. */
+@media screen {
+  .wh_publication_toc .active > .topicref a {
+    font-weight: bold;
+  }
+}
+/*accent-colors-selector*/
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="placeholder/figurelist"] > *[class~="topic/title"],
+*[class~="placeholder/tablelist"] > *[class~="topic/title"],
+*[class~="index/groups"]::before {
+  color: #000000;
+}
+*[class~='topic/shortdesc']:before {
+  color: #e1f5fe;
+}
+*[class~='topic/xref'],
+*[class~='topic/link'] {
+  color: #1a73e8;
+}
+.related-links a,
+.related-links a:visited {
+  color: #1a73e8;
+}
+a,
+a:hover,
+a:visited {
+  color: #1a73e8;
+}
+*[class~='topic/table'] th {
+  background-color: #e8eaed;
+}
+/*fonts-selector*/
+@page {
+  font-family: 'BrandingFont', sans-serif;
+}
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="map/topicref"],
+*[class~='topic/title'],
+*[class~='topic/thead'],
+*[class~="placeholder/figurelist"],
+*[class~="placeholder/tablelist"],
+*[class~="index/groups"]::before,
+*[class~="index/group"] > *[class~="index/label"],
+.wh_publication_title,
+.wh_top_menu,
+.wh_tile_title .topicref,
+.wh_main_page_toc_entry .topicref,
+.wh_index_terms span.wh_first_letter,
+.wh-letters li a {
+  font-family: 'BrandingFont', sans-serif;
+}
+body {
+  font-family: 'SecondaryBrandingFont', sans-serif;
+}
+/*code-font-roboto-mono*/
+*[class~='pr-d/codeblock'],
+*[class~='codeblock'],
+*[class~='pr-d/codeph'],
+*[class~='codeph'] {
+  font-family: 'Roboto Mono', monospace;
+}
+/*table-style-bottom-border*/
+*[class~='topic/entry'],
+*[class~='topic/stentry'] {
+  border: 0;
+  border-bottom: thin solid;
+}
+/*unordered-list-bullet-disc*/
+*[class="- topic/ul ul"] > *[class="- topic/li li"] {
+  list-style-type: disc;
+}
+/*notes-style-borders-square*/
+*[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+  border: 1px solid;
+}
+/*notes-colors-colorful*/
+*[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+  background-color: rgba(0, 120, 160, 0.09);
+  border-color: #0078A0;
+}
+*[class~="topic/note"].note_danger,
+*[class~="topic/note"].note_caution {
+  background-color: rgba(255, 202, 45, 0.1);
+  border-color: #606060;
+}
+*[class~="topic/note"].note_warning,
+*[class~="topic/note"].note_attention,
+*[class~="topic/note"].note_important {
+  background-color: rgba(255, 202, 45, 0.1);
+  border-color: #FFCA2D;
+}
+*[class~="topic/note"].note_restriction {
+  background-color: rgba(255, 226, 225, 0.32);
+  border-color: #FF342D;
+}
+/*toc-numbering-deep*/
+/*left-pages-header-publication-title*/
+@page :left {
+  @top-left {
+    content: string(maptitle);
+  }
+}
+/*right-pages-header-publication-title*/
+@page :right {
+  @top-right {
+    content: string(maptitle);
+  }
+}
+/*wh-tiles*/
+/*wh-menu-page-colors-titles-color-no-bg*/
+.wh_header {
+  background-color: transparent;
+}
+.wh_top_menu > ul > li a,
+.wh_indexterms_link a::before {
+  color: #000000;
+}
+.wh_indexterms_link a span {
+  display: none;
+}
+.wh_top_menu ul li:hover {
+  background-color: #e6e6e6;
+}
+.wh_top_menu ul ul {
+  background-color: #e6e6e6;
+}
+.wh_top_menu ul ul li {
+  border-top-color: #fff;
+}
+.wh_top_menu ul ul li a:hover {
+  background: #d9d9d9;
+}
+#wh_menu_mobile_button {
+  background-color: #b3b3b3;
+}
+/*wh-search-component-colors-white*/
+.wh_search_button {
+  background-color: #ffffff;
+  color: #000000;
+}
+/*wh-footer-background-color*/
+.wh_footer {
+  background-color: #e8eaed;
+}
+
