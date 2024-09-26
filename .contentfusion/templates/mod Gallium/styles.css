@@ -3,7 +3,7 @@
 @colors&{"titlesAccentColor":"#000000","labelsAccentColor":"#e1f5fe","linksAccentColor":"#1a73e8","backgroundAccentColor":"#e8eaed","isDefault":true}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
-@aspects&wh-tiles,accent-colors-selector,fonts-selector,code-font-roboto-mono,unordered-list-bullet-disc,table-style-bottom-border,notes-style-borders-square,notes-colors-colorful,toc-numbering-deep,left-pages-header-publication-title,right-pages-header-publication-title,wh-search-component-colors-white,wh-menu-page-colors-titles-color-no-bg,wh-footer-background-color&aspects@
+@aspects&wh-tiles,accent-colors-selector,fonts-selector,code-font-roboto-mono,unordered-list-bullet-disc,table-style-bottom-border,notes-style-borders-square,notes-colors-colorful,toc-numbering-deep,left-pages-header-publication-title,right-pages-header-publication-title,wh-search-component-colors-white,wh-menu-page-colors-titles-color-no-bg,wh-footer-background-color,logo-favicon-selector&aspects@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
 @info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
@@ -121,10 +121,9 @@ body {
   font-family: 'SecondaryBrandingFont', sans-serif;
 }
 /*code-font-roboto-mono*/
-*[class~='pr-d/codeblock'],
-*[class~='codeblock'],
 *[class~='pr-d/codeph'],
-*[class~='codeph'] {
+*[class~='pr-d/codeblock'],
+*[class~="pr-d/codeblock"] > code {
   font-family: 'Roboto Mono', monospace;
 }
 /*table-style-bottom-border*/
