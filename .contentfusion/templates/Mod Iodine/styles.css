@@ -120,10 +120,9 @@ body {
   font-family: 'SecondaryBrandingFont', sans-serif;
 }
 /*code-font-courier-new*/
-*[class~='pr-d/codeblock'],
-*[class~='codeblock'],
 *[class~='pr-d/codeph'],
-*[class~='codeph'] {
+*[class~='pr-d/codeblock'],
+*[class~="pr-d/codeblock"] > code {
   font-family: 'Courier New', monospace;
 }
 /*code-colors-theme-programmer*/
