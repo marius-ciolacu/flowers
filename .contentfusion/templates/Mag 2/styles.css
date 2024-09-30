@@ -2,8 +2,9 @@
 @colors&{"titlesAccentColor":"#ffffff","labelsAccentColor":"#000000","linksAccentColor":"#0078d4","backgroundAccentColor":"#0078d4","isDefault":true}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
-@aspects&wh-tiles,theme-fonts-segoe-ui-semibold,page-size-a4,accent-colors-selector,titles-color-background,table-style-bottom-border,table-colors-black-white,code-colors-theme-github,notes-layout-two-lines,notes-colors-colorful,notes-style-borders-square,links-style-underline-on-hover,toc-numbering-empty,left-pages-header-empty,right-pages-header-empty,wh-menu-page-colors-white-color,wh-search-component-colors-links,wh-search-component-background-color,wh-footer-background-color-gray-light,wh-footer-padding-large,pdf-cover-title-colors-labels&aspects@
+@aspects&wh-tiles,theme-fonts-segoe-ui-semibold,page-size-a4,accent-colors-selector,titles-color-background,table-style-bottom-border,table-colors-black-white,code-colors-theme-github,notes-layout-two-lines,notes-colors-colorful,notes-style-borders-square,links-style-underline-on-hover,toc-numbering-empty,left-pages-header-empty,right-pages-header-empty,wh-menu-page-colors-white-color,wh-search-component-colors-links,wh-search-component-background-color,wh-footer-background-color-gray-light,wh-footer-padding-large,pdf-cover-title-colors-labels,preview-selector&aspects@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
+@info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
 /* Bold selection in Publication TOC. WebHelp only. */
 @media screen {
@@ -236,4 +237,5 @@ a:hover {
 .wh_footer {
   padding: 50px 0;
 }
+/*preview-selector*/
 
