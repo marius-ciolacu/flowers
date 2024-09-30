@@ -1,5 +1,5 @@
 /*#
-@colors&{"titlesAccentColor":"#000000","labelsAccentColor":"#878787","linksAccentColor":"#5185cb","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
+@colors&{"titlesAccentColor":"#f72929","labelsAccentColor":"#878787","linksAccentColor":"#5185cb","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
 @aspects&wh-tiles,accent-colors-selector,wh-menu-page-colors-white-color-black-bg,wh-breadcrumb-colors-labels-colors-bg,wh-search-component-background-color-dark,wh-footer-background-color-dark,fonts-selector,wh-search-component-padding-extra-extra-large,notes-layout-two-lines,notes-style-borders-box,notes-colors-colorful,table-colors-black-white,wh-tiles-themes-titles-and-link-bg&aspects@
@@ -68,7 +68,7 @@
 *[class~="placeholder/figurelist"] > *[class~="topic/title"],
 *[class~="placeholder/tablelist"] > *[class~="topic/title"],
 *[class~="index/groups"]::before {
-  color: #000000;
+  color: #f72929;
 }
 *[class~='topic/shortdesc']:before {
   color: #878787;
@@ -169,7 +169,7 @@ span.note__title {
   margin-top: 1em;
   margin-bottom: 0.5em;
   text-align: center;
-  color: #000000;
+  color: #f72929;
 }
 /*wh-menu-page-colors-white-color-black-bg*/
 .wh_header {
