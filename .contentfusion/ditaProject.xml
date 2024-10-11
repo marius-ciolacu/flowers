@@ -51,7 +51,7 @@
         <context idref="rVzOIRJPuxXlwZs"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param name="webhelp.publishing.template" value=".contentfusion/templates/q w e r t y u"/>
+            <param href="templates/q%20w%20e%20r%20t%20y%20u" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
