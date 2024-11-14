@@ -59,7 +59,7 @@
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param name="webhelp.publishing.template" value="../publising/flowers"/>
+            <param href="../publising/flowers" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
