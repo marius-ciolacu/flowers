@@ -77,4 +77,13 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
+    <deliverable id="d-Winter_flowers-1739172828225" name="Winter flowers">
+        <?description {"content":"Winter flowers WebHelp version"}?>
+        <context idref="phMMYAcYyUWwedh"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param href="templates/Mag%202" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
 </project>
