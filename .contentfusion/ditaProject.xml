@@ -32,10 +32,11 @@
         </publication>
     </deliverable>
     <deliverable id="d-Summer_Flowers_as_PDF-1720094855347" name="Summer Flowers as PDF">
+        <?description {"content":"PDF version"}?>
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="pdf-output"/>
         <publication idref="pdf">
-            <param name="pdf.publishing.template" value=".contentfusion/templates/1 2 3 4 5 6 7 8 9 0"/>
+            <param href="templates/1%202%203%204%205%206%207%208%209%200" name="pdf.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
