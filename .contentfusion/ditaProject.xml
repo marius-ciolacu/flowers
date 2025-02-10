@@ -66,4 +66,13 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
+    <deliverable id="d-Latest-1739169504081" name="Latest">
+        <?description {"content":"Yet another test"}?>
+        <context idref="rVzOIRJPuxXlwZs"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param href="templates/O%202%20Modified" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
+        </publication>
+    </deliverable>
 </project>
