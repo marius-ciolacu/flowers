@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project xmlns="https://www.dita-ot.org/project">
+    <context id="phMMYAcYyUWwedh" name="Winter">
+        <input href="../flowers.ditamap"/>
+        <profile>
+            <ditaval href="../winter_flowers.ditamap"/>
+        </profile>
+    </context>
     <context id="DjmlUTpTsEYsqIn" name="summer">
         <input href="../flowers.ditamap"/>
         <profile>
@@ -32,29 +38,26 @@
         </publication>
     </deliverable>
     <deliverable id="d-Summer_Flowers_as_PDF-1720094855347" name="Summer Flowers as PDF">
-        <?description {"content":"PDF version"}?>
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="pdf-output"/>
         <publication idref="pdf">
-            <param href="templates/1%202%203%204%205%206%207%208%209%200" name="pdf.publishing.template"/>
+            <param name="pdf.publishing.template" href="templates/1%202%203%204%205%206%207%208%209%200"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
     <deliverable id="d-New_One-1722934303412" name="New One">
-        <?description {"content":"Upload to SFTP"}?>
         <context idref="CuslLDlbzFCebGU"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param href="templates/Mag%202" name="webhelp.publishing.template"/>
+            <param name="webhelp.publishing.template" href="templates/Mag%202"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
     <deliverable id="d-another_one-1726559717081" name="another one">
-        <?description {"content":"Upload to Amazon"}?>
         <context idref="rVzOIRJPuxXlwZs"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param href="templates/q%20w%20e%20r%20t%20y%20u" name="webhelp.publishing.template"/>
+            <param name="webhelp.publishing.template" href="templates/q%20w%20e%20r%20t%20y%20u"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
@@ -62,16 +65,15 @@
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param href="../publising/flowers" name="webhelp.publishing.template"/>
+            <param name="webhelp.publishing.template" href="../publising/flowers"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
     <deliverable id="d-Latest-1739169504081" name="Latest">
-        <?description {"content":"Yet another test"}?>
         <context idref="rVzOIRJPuxXlwZs"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param href="templates/O%202%20Modified" name="webhelp.publishing.template"/>
+            <param name="webhelp.publishing.template" href="templates/O%202%20Modified"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
