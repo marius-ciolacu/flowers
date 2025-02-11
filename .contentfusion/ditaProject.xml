@@ -55,6 +55,7 @@
         </publication>
     </deliverable>
     <deliverable id="d-another_one-1726559717081" name="another one">
+        <?description {"content":"Amazon upload"}?>
         <context idref="rVzOIRJPuxXlwZs"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
