@@ -46,6 +46,7 @@
         </publication>
     </deliverable>
     <deliverable id="d-New_One-1722934303412" name="New One">
+        <?description {"content":"SFTP_upload"}?>
         <context idref="CuslLDlbzFCebGU"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
