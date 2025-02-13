@@ -1,55 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:regular,bold&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:regular,italic,bold&display=swap');
 /*#
-@colors&{"titlesAccentColor":"#004b91","labelsAccentColor":"#ec7211","linksAccentColor":"#0073bb","backgroundAccentColor":"#16191f","isDefault":true}&colors@
+@colors&{"titlesAccentColor":"#f8e71c","labelsAccentColor":"#ec7211","linksAccentColor":"#0073bb","backgroundAccentColor":"#16191f","isDefault":false}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
-@aspects&wh-tiles,accent-colors-selector,code-font-consolas,notes-layout-two-lines,notes-style-borders-square,notes-colors-colorful,toc-numbering-empty,left-pages-header-centered-publication-title,right-pages-header-centered-publication-title,left-pages-footer-centered-page,right-pages-footer-centered-page,footer-separator-one-titles,header-separator-one-titles,wh-tiles-themes-titles-and-label,wh-breadcrumb-separator-arrow,wh-breadcrumb-colors-links-on-gray,wh-left-toc-thin-right-borders,wh-right-toc-thin-left-border,wh-search-component-colors-white,wh-search-component-background-color,links-style-underline-on-hover,table-colors-black-white,wh-menu-page-colors-link-color,fonts-selector&aspects@
+@aspects&wh-tiles,accent-colors-selector,code-font-consolas,notes-layout-two-lines,notes-style-borders-square,notes-colors-colorful,toc-numbering-empty,left-pages-header-centered-publication-title,right-pages-header-centered-publication-title,left-pages-footer-centered-page,right-pages-footer-centered-page,footer-separator-one-titles,header-separator-one-titles,wh-tiles-themes-titles-and-label,wh-breadcrumb-separator-arrow,wh-breadcrumb-colors-links-on-gray,wh-left-toc-thin-right-borders,wh-right-toc-thin-left-border,wh-search-component-colors-white,wh-search-component-background-color,links-style-underline-on-hover,table-colors-black-white,wh-menu-page-colors-link-color,theme-fonts-roboto-slab-roboto-mono&aspects@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
 @info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
-@font-face {
-  font-family: 'BrandingFont';
-  src: url(resources/primaryBrandingFonts.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'BrandingFont';
-  src: url(resources/primaryBrandingFonts-Bold.ttf) format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'BrandingFont';
-  src: url(resources/primaryBrandingFonts-Italic.ttf) format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'BrandingFont';
-  src: url(resources/primaryBrandingFonts-BoldItalic.ttf) format('truetype');
-  font-weight: 700;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'SecondaryBrandingFont';
-  src: url(resources/secondaryBrandingFonts.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'SecondaryBrandingFont';
-  src: url(resources/secondaryBrandingFonts-Bold.ttf) format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SecondaryBrandingFont';
-  src: url(resources/secondaryBrandingFonts-Italic.ttf) format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'SecondaryBrandingFont';
-  src: url(resources/secondaryBrandingFonts-BoldItalic.ttf) format('truetype');
-  font-weight: 700;
-  font-style: italic;
-}
 /* Bold selection in Publication TOC. WebHelp only. */
 @media screen {
   .wh_publication_toc .active > .topicref a {
@@ -68,7 +26,7 @@
 *[class~="placeholder/figurelist"] > *[class~="topic/title"],
 *[class~="placeholder/tablelist"] > *[class~="topic/title"],
 *[class~="index/groups"]::before {
-  color: #004b91;
+  color: #f8e71c;
 }
 *[class~='topic/shortdesc']:before {
   color: #ec7211;
@@ -89,9 +47,9 @@ a:visited {
 *[class~='topic/table'] th {
   background-color: #16191f;
 }
-/*fonts-selector*/
+/*theme-fonts-roboto-slab-roboto-mono*/
 @page {
-  font-family: 'BrandingFont', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 .topictitle1,
 .topictitle2,
@@ -114,16 +72,15 @@ a:visited {
 .wh_main_page_toc_entry .topicref,
 .wh_index_terms span.wh_first_letter,
 .wh-letters li a {
-  font-family: 'BrandingFont', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 body {
-  font-family: 'SecondaryBrandingFont', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 /*code-font-consolas*/
-*[class~='pr-d/codeblock'],
-*[class~='codeblock'],
 *[class~='pr-d/codeph'],
-*[class~='codeph'] {
+*[class~='pr-d/codeblock'],
+*[class~="pr-d/codeblock"] > code {
   font-family: 'Consolas', monospace;
 }
 /*table-colors-black-white*/
@@ -204,7 +161,7 @@ a:hover {
 }
 /*header-separator-one-titles*/
 @page chapter {
-  border-top: 1pt solid #004b91;
+  border-top: 1pt solid #f8e71c;
   
   @top-left-corner {
     padding-bottom: 12pt;
@@ -241,7 +198,7 @@ a:hover {
 }
 /*footer-separator-one-titles*/
 @page chapter {
-  border-bottom: 1pt solid #004b91;
+  border-bottom: 1pt solid #f8e71c;
   
   @bottom-left-corner {
     padding-top: 12pt;
@@ -274,7 +231,7 @@ a:hover {
   font-size: 1.5em;
 }
 .wh_tile_title a {
-  color: #004b91;
+  color: #f8e71c;
 }
 .wh_tile_shortdesc {
   margin-top: 1em;
