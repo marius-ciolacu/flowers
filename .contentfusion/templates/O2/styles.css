@@ -1,8 +1,8 @@
 /*#
-@colors&{"titlesAccentColor":"#d0021b","labelsAccentColor":"#878787","linksAccentColor":"#5185cb","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
+@colors&{"titlesAccentColor":"#f5a623","labelsAccentColor":"#878787","linksAccentColor":"#5185cb","backgroundAccentColor":"#dce5f2","isDefault":false}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
-@aspects&wh-tiles,accent-colors-selector,wh-menu-page-colors-white-color-black-bg,wh-breadcrumb-colors-labels-colors-bg,wh-search-component-background-color-dark,wh-footer-background-color-dark,fonts-selector,wh-search-component-padding-extra-extra-large,notes-layout-two-lines,notes-style-borders-box,notes-colors-colorful,table-colors-black-white,wh-tiles-themes-titles-and-link-bg&aspects@
+@aspects&wh-tiles,accent-colors-selector,wh-menu-page-colors-white-color-black-bg,wh-breadcrumb-colors-labels-colors-bg,wh-search-component-background-color-dark,wh-footer-background-color-dark,fonts-selector,wh-search-component-padding-extra-extra-large,notes-layout-two-lines,notes-style-borders-box,notes-colors-colorful,table-colors-black-white,wh-tiles-themes-titles-and-link-bg,between-elements-extra-extra-large,between-lines-small&aspects@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
 @info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
@@ -68,7 +68,7 @@
 *[class~="placeholder/figurelist"] > *[class~="topic/title"],
 *[class~="placeholder/tablelist"] > *[class~="topic/title"],
 *[class~="index/groups"]::before {
-  color: #d0021b;
+  color: #f5a623;
 }
 *[class~='topic/shortdesc']:before {
   color: #878787;
@@ -118,6 +118,30 @@ a:visited {
 }
 body {
   font-family: 'SecondaryBrandingFont', sans-serif;
+}
+/*between-elements-extra-extra-large*/
+*[class~='topic/p'],
+*[class~='topic/lq'],
+*[class~='topic/note'],
+*[class~='topic/dl'],
+*[class~='topic/ul'],
+*[class~='topic/ol'],
+*[class~='topic/li'],
+*[class~='topic/sl'],
+*[class~='topic/pre'],
+*[class~='topic/lines'],
+*[class~='topic/fig'],
+*[class~='topic/table'],
+*[class~='topic/simpletable'],
+*[class~='topic/section'],
+*[class~='topic/example'] {
+  margin: 1.7em 0;
+}
+/*between-lines-small*/
+*[class~='topic/topic'],
+*[class~='topic/body'],
+*[class~='topic/title'] {
+  line-height: 1;
 }
 /*table-colors-black-white*/
 *[class~='topic/table'] th {
@@ -169,7 +193,7 @@ span.note__title {
   margin-top: 1em;
   margin-bottom: 0.5em;
   text-align: center;
-  color: #d0021b;
+  color: #f5a623;
 }
 /*wh-menu-page-colors-white-color-black-bg*/
 .wh_header {
