@@ -1,5 +1,5 @@
 /*#
-@colors&{"titlesAccentColor":"#004b91","labelsAccentColor":"#ec7211","linksAccentColor":"#0073bb","backgroundAccentColor":"#16191f","isDefault":true}&colors@
+@colors&{"titlesAccentColor":"#f8e71c","labelsAccentColor":"#ec7211","linksAccentColor":"#0073bb","backgroundAccentColor":"#16191f","isDefault":false}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
 @aspects&wh-tiles,accent-colors-selector,code-font-consolas,notes-layout-two-lines,notes-style-borders-square,notes-colors-colorful,toc-numbering-empty,left-pages-header-centered-publication-title,right-pages-header-centered-publication-title,left-pages-footer-centered-page,right-pages-footer-centered-page,footer-separator-one-titles,header-separator-one-titles,wh-tiles-themes-titles-and-label,wh-breadcrumb-separator-arrow,wh-breadcrumb-colors-links-on-gray,wh-left-toc-thin-right-borders,wh-right-toc-thin-left-border,wh-search-component-colors-white,wh-search-component-background-color,links-style-underline-on-hover,table-colors-black-white,wh-menu-page-colors-link-color,fonts-selector&aspects@
@@ -68,7 +68,7 @@
 *[class~="placeholder/figurelist"] > *[class~="topic/title"],
 *[class~="placeholder/tablelist"] > *[class~="topic/title"],
 *[class~="index/groups"]::before {
-  color: #004b91;
+  color: #f8e71c;
 }
 *[class~='topic/shortdesc']:before {
   color: #ec7211;
@@ -120,10 +120,9 @@ body {
   font-family: 'SecondaryBrandingFont', sans-serif;
 }
 /*code-font-consolas*/
-*[class~='pr-d/codeblock'],
-*[class~='codeblock'],
 *[class~='pr-d/codeph'],
-*[class~='codeph'] {
+*[class~='pr-d/codeblock'],
+*[class~="pr-d/codeblock"] > code {
   font-family: 'Consolas', monospace;
 }
 /*table-colors-black-white*/
@@ -204,7 +203,7 @@ a:hover {
 }
 /*header-separator-one-titles*/
 @page chapter {
-  border-top: 1pt solid #004b91;
+  border-top: 1pt solid #f8e71c;
   
   @top-left-corner {
     padding-bottom: 12pt;
@@ -241,7 +240,7 @@ a:hover {
 }
 /*footer-separator-one-titles*/
 @page chapter {
-  border-bottom: 1pt solid #004b91;
+  border-bottom: 1pt solid #f8e71c;
   
   @bottom-left-corner {
     padding-top: 12pt;
@@ -274,7 +273,7 @@ a:hover {
   font-size: 1.5em;
 }
 .wh_tile_title a {
-  color: #004b91;
+  color: #f8e71c;
 }
 .wh_tile_shortdesc {
   margin-top: 1em;
