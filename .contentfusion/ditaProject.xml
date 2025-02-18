@@ -41,7 +41,7 @@
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="pdf-output"/>
         <publication idref="pdf">
-            <param href="templates/1%202%203%204%205%206%207%208%209%200" name="pdf.publishing.template"/>
+            <param href="templates/Fancy" name="pdf.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
