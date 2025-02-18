@@ -84,7 +84,7 @@
         <context idref="phMMYAcYyUWwedh"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param href="templates/Blank" name="webhelp.publishing.template"/>
+            <param href="templates/Mag%202" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
