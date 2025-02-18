@@ -73,9 +73,9 @@
     </deliverable>
     <deliverable id="d-Latest-1739169504081" name="Latest">
         <context idref="rVzOIRJPuxXlwZs"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param href="templates/Fancy" name="webhelp.publishing.template"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf">
+            <param href="templates/Fancy" name="pdf.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
