@@ -6,6 +6,10 @@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
 @info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
+@font-face {
+  font-family: 'BrandingFont';
+  src: url(resources/primaryBrandingFonts.ttf) format('truetype');
+}
 /* Bold selection in Publication TOC. WebHelp only. */
 @media screen {
   .wh_publication_toc .active > .topicref a {
