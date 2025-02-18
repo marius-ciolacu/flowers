@@ -1,24 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:regular,bold&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:regular,italic,bold&display=swap');
 /*#
 @colors&{"titlesAccentColor":"#494949","labelsAccentColor":"#7b7a7a","linksAccentColor":"#2372de","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
-@aspects&wh-tiles,fonts-selector,logo-favicon-selector,preview-selector,page-columns-three&aspects@
+@aspects&wh-tiles,logo-favicon-selector,preview-selector,page-columns-three,theme-fonts-roboto-slab-roboto-mono&aspects@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
 @info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
-@font-face {
-  font-family: 'BrandingFont';
-  src: url(resources/primaryBrandingFonts.ttf) format('truetype');
-}
 /* Bold selection in Publication TOC. WebHelp only. */
 @media screen {
   .wh_publication_toc .active > .topicref a {
     font-weight: bold;
   }
 }
-/*fonts-selector*/
+/*theme-fonts-roboto-slab-roboto-mono*/
 @page {
-  font-family: 'BrandingFont', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 .topictitle1,
 .topictitle2,
@@ -41,10 +39,10 @@
 .wh_main_page_toc_entry .topicref,
 .wh_index_terms span.wh_first_letter,
 .wh-letters li a {
-  font-family: 'BrandingFont', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 body {
-  font-family: 'SecondaryBrandingFont', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 /*page-columns-three*/
 @media print {
