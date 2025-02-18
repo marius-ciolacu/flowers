@@ -2,7 +2,7 @@
 @colors&{"titlesAccentColor":"#494949","labelsAccentColor":"#7b7a7a","linksAccentColor":"#2372de","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
-@aspects&wh-tiles,fonts-selector,logo-favicon-selector,preview-selector&aspects@
+@aspects&wh-tiles,fonts-selector,logo-favicon-selector,preview-selector,page-columns-three&aspects@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
 @info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
@@ -45,6 +45,12 @@
 }
 body {
   font-family: 'SecondaryBrandingFont', sans-serif;
+}
+/*page-columns-three*/
+@media print {
+  @page chapter {
+    column-count: 3;
+  }
 }
 /*wh-tiles*/
 /*preview-selector*/
