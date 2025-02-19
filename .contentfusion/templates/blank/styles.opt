@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><publishing-template>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<publishing-template>
     <name>Custom Template</name>
     <webhelp>
-        <preview-image file="preview/generated-preview.png"/>
+        <preview-image file="preview/preview.png"/>
         <resources>
             <css file="custom.css"/>
             <css file="styles.css"/>
@@ -12,12 +13,16 @@
             </fileset>
         </resources>
         <parameters>
+            <parameter name="webhelp.logo.image" type="filePath" value="resources/logo.png"/>
+            <parameter name="webhelp.favicon" type="filePath" value="resources/favicon.ico"/>
+            <parameter name="webhelp.show.main.page.tiles" value="yes"/>
+            <parameter name="webhelp.show.main.page.toc" value="no"/>
             <parameter name="webhelp.show.main.page.tiles" value="yes"/>
             <parameter name="webhelp.show.main.page.toc" value="no"/>
         </parameters>
     </webhelp>
     <pdf>
-        <preview-image file="preview/generated-preview.png"/>
+        <preview-image file="preview/preview.png"/>
         <resources>
             <css file="custom.css"/>
             <css file="styles.css"/>
