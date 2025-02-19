@@ -41,7 +41,7 @@
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="pdf-output"/>
         <publication idref="pdf">
-            <param href="templates/Fancy" name="pdf.publishing.template"/>
+            <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
