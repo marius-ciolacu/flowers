@@ -47,7 +47,7 @@
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="pdf-output"/>
         <publication idref="pdf">
-            <param name="pdf.publishing.template" href="cf://templates/Oxygen"/>
+            <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
@@ -55,7 +55,7 @@
         <context idref="CuslLDlbzFCebGU"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param name="webhelp.publishing.template" href="cf://templates/Oxygen"/>
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
@@ -63,7 +63,7 @@
         <context idref="rVzOIRJPuxXlwZs"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param name="webhelp.publishing.template" href="templates/q%20w%20e%20r%20t%20y%20u"/>
+            <param href="templates/q%20w%20e%20r%20t%20y%20u" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
@@ -71,7 +71,7 @@
         <context idref="DjmlUTpTsEYsqIn"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param name="webhelp.publishing.template" href="../publising/flowers"/>
+            <param href="../publising/flowers" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
@@ -79,7 +79,7 @@
         <context idref="rVzOIRJPuxXlwZs"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param name="webhelp.publishing.template" href="templates/blank"/>
+            <param href="templates/blank" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
@@ -87,7 +87,15 @@
         <context idref="phMMYAcYyUWwedh"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param name="webhelp.publishing.template" href="templates/Mag%202"/>
+            <param href="templates/Mag%202" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
+    <deliverable id="d-Spring_time-1740033147082" name="Spring time">
+        <context idref="ZQMsmBlygTGyytp"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param href="templates/Fancy" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
