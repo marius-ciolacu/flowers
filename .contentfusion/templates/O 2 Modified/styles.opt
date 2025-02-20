@@ -13,6 +13,9 @@
             </fileset>
         </resources>
         <parameters>
+            <parameter name="webhelp.logo.image" type="filePath" value="resources/logo.jpg"/>
+            <parameter name="webhelp.show.main.page.tiles" value="yes"/>
+            <parameter name="webhelp.show.main.page.toc" value="no"/>
             <parameter name="webhelp.show.main.page.tiles" value="yes"/>
             <parameter name="webhelp.show.main.page.toc" value="no"/>
         </parameters>

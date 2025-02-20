@@ -2,7 +2,7 @@
 @colors&{"titlesAccentColor":"#9013fe","labelsAccentColor":"#9013fe","linksAccentColor":"#9013fe","backgroundAccentColor":"#9013fe","isDefault":true}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
-@aspects&wh-tiles,accent-colors-selector,wh-menu-page-colors-white-color-black-bg,wh-breadcrumb-colors-labels-colors-bg,wh-search-component-background-color-dark,wh-footer-background-color-dark,fonts-selector,wh-search-component-padding-extra-extra-large,notes-layout-two-lines,notes-style-borders-box,notes-colors-colorful,table-colors-black-white,wh-tiles-themes-titles-and-link-bg,logo-favicon-selector,preview-selector&aspects@
+@aspects&wh-tiles,accent-colors-selector,wh-menu-page-colors-white-color-black-bg,wh-breadcrumb-colors-labels-colors-bg,wh-search-component-background-color-dark,wh-footer-background-color-dark,fonts-selector,wh-search-component-padding-extra-extra-large,notes-layout-two-lines,notes-style-borders-box,notes-colors-colorful,table-colors-black-white,wh-tiles-themes-titles-and-link-bg,logo-favicon-selector,preview-selector,content-font-size-20&aspects@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
 @info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
@@ -118,6 +118,10 @@ a:visited {
 }
 body {
   font-family: 'SecondaryBrandingFont', sans-serif;
+}
+/*content-font-size-20*/
+body {
+  font-size: 20pt;
 }
 /*table-colors-black-white*/
 *[class~='topic/table'] th {
