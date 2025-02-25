@@ -1,0 +1,332 @@
+/*#
+@colors&{"titlesAccentColor":"#004b91","labelsAccentColor":"#ec7211","linksAccentColor":"#0073bb","backgroundAccentColor":"#16191f","isDefault":true}&colors@
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tiles,accent-colors-selector,code-font-consolas,notes-layout-two-lines,notes-style-borders-square,notes-colors-colorful,toc-numbering-empty,left-pages-header-centered-publication-title,right-pages-header-centered-publication-title,left-pages-footer-centered-page,right-pages-footer-centered-page,footer-separator-one-titles,header-separator-one-titles,wh-tiles-themes-titles-and-label,wh-breadcrumb-separator-arrow,wh-breadcrumb-colors-links-on-gray,wh-left-toc-thin-right-borders,wh-right-toc-thin-left-border,wh-search-component-colors-white,wh-search-component-background-color,links-style-underline-on-hover,table-colors-black-white,wh-menu-page-colors-link-color,fonts-selector&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
+@info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
+#*/
+@font-face {
+  font-family: 'BrandingFont';
+  src: url(resources/primaryBrandingFonts.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BrandingFont';
+  src: url(resources/primaryBrandingFonts-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BrandingFont';
+  src: url(resources/primaryBrandingFonts-Italic.ttf) format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'BrandingFont';
+  src: url(resources/primaryBrandingFonts-BoldItalic.ttf) format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SecondaryBrandingFont';
+  src: url(resources/secondaryBrandingFonts.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SecondaryBrandingFont';
+  src: url(resources/secondaryBrandingFonts-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SecondaryBrandingFont';
+  src: url(resources/secondaryBrandingFonts-Italic.ttf) format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SecondaryBrandingFont';
+  src: url(resources/secondaryBrandingFonts-BoldItalic.ttf) format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+/* Bold selection in Publication TOC. WebHelp only. */
+@media screen {
+  .wh_publication_toc .active > .topicref a {
+    font-weight: bold;
+  }
+}
+/*accent-colors-selector*/
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="placeholder/figurelist"] > *[class~="topic/title"],
+*[class~="placeholder/tablelist"] > *[class~="topic/title"],
+*[class~="index/groups"]::before {
+  color: #004b91;
+}
+*[class~='topic/shortdesc']:before {
+  color: #ec7211;
+}
+*[class~='topic/xref'],
+*[class~='topic/link'] {
+  color: #0073bb;
+}
+.related-links a,
+.related-links a:visited {
+  color: #0073bb;
+}
+a,
+a:hover,
+a:visited {
+  color: #0073bb;
+}
+*[class~='topic/table'] th {
+  background-color: #16191f;
+}
+/*fonts-selector*/
+@page {
+  font-family: 'BrandingFont', sans-serif;
+}
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="map/topicref"],
+*[class~='topic/title'],
+*[class~='topic/thead'],
+*[class~="placeholder/figurelist"],
+*[class~="placeholder/tablelist"],
+*[class~="index/groups"]::before,
+*[class~="index/group"] > *[class~="index/label"],
+.wh_publication_title,
+.wh_top_menu,
+.wh_tile_title .topicref,
+.wh_main_page_toc_entry .topicref,
+.wh_index_terms span.wh_first_letter,
+.wh-letters li a {
+  font-family: 'BrandingFont', sans-serif;
+}
+body {
+  font-family: 'SecondaryBrandingFont', sans-serif;
+}
+/*code-font-consolas*/
+*[class~='pr-d/codeblock'],
+*[class~='codeblock'],
+*[class~='pr-d/codeph'],
+*[class~='codeph'] {
+  font-family: 'Consolas', monospace;
+}
+/*table-colors-black-white*/
+*[class~='topic/table'] th {
+  background-color: #ffffff;
+}
+/*notes-layout-two-lines*/
+span.note__title {
+  display: block;
+}
+/*notes-style-borders-square*/
+*[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+  border: 1px solid;
+}
+/*notes-colors-colorful*/
+*[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+  background-color: rgba(0, 120, 160, 0.09);
+  border-color: #0078A0;
+}
+*[class~="topic/note"].note_danger,
+*[class~="topic/note"].note_caution {
+  background-color: rgba(255, 202, 45, 0.1);
+  border-color: #606060;
+}
+*[class~="topic/note"].note_warning,
+*[class~="topic/note"].note_attention,
+*[class~="topic/note"].note_important {
+  background-color: rgba(255, 202, 45, 0.1);
+  border-color: #FFCA2D;
+}
+*[class~="topic/note"].note_restriction {
+  background-color: rgba(255, 226, 225, 0.32);
+  border-color: #FF342D;
+}
+/*links-style-underline-on-hover*/
+*[class~='topic/xref'],
+*[class~='topic/link'] {
+  text-decoration: none;
+}
+*[class~='topic/xref']:hover,
+*[class~='topic/link']:hover {
+  text-decoration: underline;
+}
+.related-links a,
+.related-links a:visited,
+a,
+a:visited {
+  text-decoration: none;
+}
+.related-links a:hover,
+a:hover {
+  text-decoration: underline;
+}
+/*toc-numbering-empty*/
+*[class~="map/topicref"][is-chapter]:not([is-part]) > *[class~="map/topicmeta"] > *[class~="topic/navtitle"]:before {
+  content: none !important;
+}
+*[class~="topic/topic"][is-chapter]:not([is-part]) > *[class~="topic/title"]:before {
+  content: none !important;
+}
+/*left-pages-header-centered-publication-title*/
+@page :left {
+  @top-left {
+    content: none;
+  }
+  @top-center {
+    content: string(maptitle);
+  }
+}
+/*right-pages-header-centered-publication-title*/
+@page :right {
+  @top-right {
+    content: none;
+  }
+  @top-center {
+    content: string(maptitle);
+  }
+}
+/*header-separator-one-titles*/
+@page chapter {
+  border-top: 1pt solid #004b91;
+  
+  @top-left-corner {
+    padding-bottom: 12pt;
+    vertical-align: bottom;
+  }
+  @top-left {
+    padding-bottom: 12pt;
+    vertical-align: bottom;
+  }
+  @top-center {
+    padding-bottom: 12pt;
+    vertical-align: bottom;
+  }
+  @top-right {
+    padding-bottom: 12pt;
+    vertical-align: bottom;
+  }
+  @top-right-corner {
+    padding-bottom: 12pt;
+    vertical-align: bottom;
+  }
+}
+/*left-pages-footer-centered-page*/
+@page :left {
+  @bottom-center {
+    content: counter(page);
+  }
+}
+/*right-pages-footer-centered-page*/
+@page :right {
+  @bottom-center {
+    content: counter(page);
+  }
+}
+/*footer-separator-one-titles*/
+@page chapter {
+  border-bottom: 1pt solid #004b91;
+  
+  @bottom-left-corner {
+    padding-top: 12pt;
+    vertical-align: top;
+  }
+  @bottom-left {
+    padding-top: 12pt;
+    vertical-align: top;
+  }
+  @bottom-center {
+    padding-top: 12pt;
+    vertical-align: top;
+  }
+  @bottom-right {
+    padding-top: 12pt;
+    vertical-align: top;
+  }
+  @bottom-right-corner {
+    padding-top: 12pt;
+    vertical-align: top;
+  }
+}
+/*wh-tiles*/
+/*wh-tiles-themes-titles-and-label*/
+.wh_tile {
+  background-color: transparent;
+}
+.wh_tile_title {
+  text-align: center;
+  font-size: 1.5em;
+}
+.wh_tile_title a {
+  color: #004b91;
+}
+.wh_tile_shortdesc {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  color: #ec7211;
+}
+/*wh-breadcrumb-colors-links-on-gray*/
+.wh_tools {
+  background-color: #D3D3D3;
+}
+.wh_breadcrumb ol a {
+  color: #0073bb;
+}
+/*wh-breadcrumb-separator-arrow*/
+.wh_breadcrumb li:not(:last-of-type):after {
+  content: ' > ';
+}
+/*wh-right-toc-thin-left-border*/
+.wh_topic_toc {
+  border-left: thin solid #ec7211;
+}
+/*wh-menu-page-colors-link-color*/
+.wh_header {
+  background-color: #16191f;
+}
+.wh_top_menu > ul > li a,
+.wh_indexterms_link a::before {
+  color: #0073bb;
+}
+.wh_indexterms_link a span {
+  display: none;
+}
+.wh_top_menu ul li:hover {
+  background-color: #010101;
+}
+.wh_top_menu ul ul {
+  background-color: #010101;
+}
+.wh_top_menu ul ul li {
+  border-top-color: #16191f;
+}
+.wh_top_menu ul ul li a:hover {
+  background: #000000;
+}
+/*wh-search-component-colors-white*/
+.wh_search_button {
+  background-color: #ffffff;
+  color: #000000;
+}
+/*wh-search-component-background-color*/
+.wh_search_input {
+  background-color: #16191f;
+}
+
