@@ -1,55 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:regular,italic,bold&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:regular,italic,bold&display=swap');
 /*#
 @colors&{"titlesAccentColor":"#f5a623","labelsAccentColor":"#878787","linksAccentColor":"#5185cb","backgroundAccentColor":"#dce5f2","isDefault":false}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
-@aspects&wh-tiles,accent-colors-selector,wh-menu-page-colors-white-color-black-bg,wh-breadcrumb-colors-labels-colors-bg,wh-search-component-background-color-dark,wh-footer-background-color-dark,fonts-selector,wh-search-component-padding-extra-extra-large,notes-layout-two-lines,notes-style-borders-box,notes-colors-colorful,table-colors-black-white,wh-tiles-themes-titles-and-link-bg,between-elements-extra-extra-large,between-lines-small&aspects@
+@aspects&wh-tiles,accent-colors-selector,wh-menu-page-colors-white-color-black-bg,wh-breadcrumb-colors-labels-colors-bg,wh-search-component-background-color-dark,wh-footer-background-color-dark,wh-search-component-padding-extra-extra-large,notes-layout-two-lines,notes-style-borders-box,notes-colors-colorful,table-colors-black-white,wh-tiles-themes-titles-and-link-bg,between-elements-extra-extra-large,between-lines-small,theme-fonts-playfair-montserrat&aspects@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
 @info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
-@font-face {
-  font-family: 'BrandingFont';
-  src: url(resources/primaryBrandingFonts.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'BrandingFont';
-  src: url(resources/primaryBrandingFonts-Bold.ttf) format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'BrandingFont';
-  src: url(resources/primaryBrandingFonts-Italic.ttf) format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'BrandingFont';
-  src: url(resources/primaryBrandingFonts-BoldItalic.ttf) format('truetype');
-  font-weight: 700;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'SecondaryBrandingFont';
-  src: url(resources/secondaryBrandingFonts.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'SecondaryBrandingFont';
-  src: url(resources/secondaryBrandingFonts-Bold.ttf) format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SecondaryBrandingFont';
-  src: url(resources/secondaryBrandingFonts-Italic.ttf) format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'SecondaryBrandingFont';
-  src: url(resources/secondaryBrandingFonts-BoldItalic.ttf) format('truetype');
-  font-weight: 700;
-  font-style: italic;
-}
 /* Bold selection in Publication TOC. WebHelp only. */
 @media screen {
   .wh_publication_toc .active > .topicref a {
@@ -89,9 +47,9 @@ a:visited {
 *[class~='topic/table'] th {
   background-color: #dce5f2;
 }
-/*fonts-selector*/
+/*theme-fonts-playfair-montserrat*/
 @page {
-  font-family: 'BrandingFont', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 .topictitle1,
 .topictitle2,
@@ -114,10 +72,10 @@ a:visited {
 .wh_main_page_toc_entry .topicref,
 .wh_index_terms span.wh_first_letter,
 .wh-letters li a {
-  font-family: 'BrandingFont', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 body {
-  font-family: 'SecondaryBrandingFont', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 /*between-elements-extra-extra-large*/
 *[class~='topic/p'],
