@@ -92,6 +92,7 @@
         </publication>
     </deliverable>
     <deliverable id="d-Spring_time-1740033147082" name="Spring time">
+        <?description {"content":"Upladed to SFTP"}?>
         <context idref="ZQMsmBlygTGyytp"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
