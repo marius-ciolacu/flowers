@@ -2,7 +2,7 @@
 <publishing-template>
     <name>Custom Template</name>
     <webhelp>
-        <preview-image file="preview/preview.png"/>
+        <preview-image file="preview/preview.jpg"/>
         <resources>
             <css file="custom.css"/>
             <css file="styles.css"/>
@@ -16,12 +16,13 @@
             <parameter name="webhelp.logo.image" type="filePath" value="resources/logo.jpg"/>
             <parameter name="webhelp.show.main.page.tiles" value="yes"/>
             <parameter name="webhelp.show.main.page.toc" value="no"/>
+            <parameter name="webhelp.logo.image" type="filePath" value="resources/logo.jpg"/>
             <parameter name="webhelp.show.main.page.tiles" value="yes"/>
             <parameter name="webhelp.show.main.page.toc" value="no"/>
         </parameters>
     </webhelp>
     <pdf>
-        <preview-image file="preview/preview.png"/>
+        <preview-image file="preview/preview.jpg"/>
         <resources>
             <css file="custom.css"/>
             <css file="styles.css"/>
