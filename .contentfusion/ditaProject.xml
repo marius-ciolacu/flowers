@@ -18,9 +18,6 @@
             <ditaval href="../summer_flowers.ditamap"/>
         </profile>
     </context>
-    <context id="CuslLDlbzFCebGU" name="All">
-        <input href="../flowers.ditamap"/>
-    </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
     <publication id="pdf" transtype="pdf-css-html5"/>
     <deliverable id="d-Summer_flowers-1720094545605" name="Summer flowers">
@@ -36,14 +33,6 @@
         <output href="pdf-output"/>
         <publication idref="pdf">
             <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
-        </publication>
-    </deliverable>
-    <deliverable id="d-New_One-1722934303412" name="New One">
-        <context idref="CuslLDlbzFCebGU"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
