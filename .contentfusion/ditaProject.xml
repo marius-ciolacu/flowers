@@ -18,12 +18,6 @@
             <ditaval href="../summer_flowers.ditamap"/>
         </profile>
     </context>
-    <context id="dbBXAeXsnsUMbSS" name="6">
-        <input href="../autumn_flowers.ditamap"/>
-        <profile>
-            <ditaval href="../autumn_flowers.ditamap"/>
-        </profile>
-    </context>
     <context id="CuslLDlbzFCebGU" name="All">
         <input href="../flowers.ditamap"/>
     </context>
@@ -75,14 +69,6 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp">
             <param href="templates/O%202%20Modified" name="webhelp.publishing.template"/>
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-        </publication>
-    </deliverable>
-    <deliverable id="d-dfdfd-1744791752089" name="dfdfd">
-        <context idref="dbBXAeXsnsUMbSS"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
