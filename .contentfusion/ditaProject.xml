@@ -6,38 +6,8 @@
             <ditaval href="../winter_flowers.ditamap"/>
         </profile>
     </context>
-    <context id="DjmlUTpTsEYsqIn" name="summer">
-        <input href="../flowers.ditamap"/>
-        <profile>
-            <ditaval href="../summer_flowers.ditamap"/>
-        </profile>
-    </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
     <publication id="pdf" transtype="pdf-css-html5"/>
-    <deliverable id="d-Summer_flowers-1720094545605" name="Summer flowers">
-        <context idref="DjmlUTpTsEYsqIn"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param name="webhelp.publishing.template" value="cf://templates/Astatine"/>
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
-        </publication>
-    </deliverable>
-    <deliverable id="d-Summer_Flowers_as_PDF-1720094855347" name="Summer Flowers as PDF">
-        <context idref="DjmlUTpTsEYsqIn"/>
-        <output href="pdf-output"/>
-        <publication idref="pdf">
-            <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
-        </publication>
-    </deliverable>
-    <deliverable id="d-Summer_flowers_Theme-1727155918398" name="Summer flowers Theme">
-        <context idref="DjmlUTpTsEYsqIn"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param href="../publising/flowers" name="webhelp.publishing.template"/>
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-        </publication>
-    </deliverable>
     <deliverable id="d-Winter_flowers-1739172828225" name="Winter flowers">
         <context idref="phMMYAcYyUWwedh"/>
         <output href="webhelp-output"/>
