@@ -13,5 +13,4 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
-    <include href="../otherDitaProject.xml"/>
 </project>
