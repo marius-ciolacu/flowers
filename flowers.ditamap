@@ -55,7 +55,7 @@
   </topichead>
   <topicref href="topics/copyright.dita">
     <topicmeta>
-      <data name="wh-tile">
+      <data name="wh-tilefds">
         <data name="hide" value="yes"/>
       </data>
     </topicmeta>
