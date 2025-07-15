@@ -9,7 +9,7 @@
         <context idref="ChYuBwNEZuokOUc"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param href="cf://templates/Astatine" name="webhelp.publishing.template"/>
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
