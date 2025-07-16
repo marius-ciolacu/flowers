@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project xmlns="https://www.dita-ot.org/project">
+    <context id="StooNAkYrNlBlSk" name="Flori de Toamna">
+        <input href="../autumn_flowers.ditamap"/>
+    </context>
+    <context id="cwqSilrouFjeGXj" name="zxcv">
+        <input href="../flowers.ditamap"/>
+    </context>
+    <context id="kYSGeTCXgpZAUoc" name="asdf">
+        <input href="../flowers.ditamap"/>
+    </context>
+    <context id="oMkLwgUwWDMPTFO" name="asdf">
+        <input href="../flowers.ditamap"/>
+    </context>
     <context id="ChYuBwNEZuokOUc" name="All">
         <input href="../flowers.ditamap"/>
+    </context>
+    <context id="xasdad-99c9e30f" name="xasdad">
+        <input href="../xasdad.ditamap"/>
+    </context>
+    <context id="xcvvc-9811512c" name="xcvvc">
+        <input href="../xcvvc.ditamap"/>
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
     <publication id="pdf" transtype="pdf-css-html5"/>
@@ -29,7 +47,7 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
-    <deliverable id="d-test-1752591094849" name="test">
+<deliverable id="d-test-1752591094849" name="test">
         <context idref="ChYuBwNEZuokOUc"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
