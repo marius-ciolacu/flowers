@@ -3,7 +3,8 @@
 <glossentry id="flowers.sepal">
     <glossterm>Sepal</glossterm>
     <glossdef>A <term>sepal</term> (from Latin <i>separatus</i> "separate" + <i>petalum</i> "petal")
-        is a part of the flower of flowering plants. <term>Sepals</term> in a "typical" flower are
+        is a part of the flower of flowering plants. <term>Sepals</term> in a
+            "typicfds<abbreviated-form keyref=""/><xref keyref="pollination">ds</xref>al" flower are
         green and lie under the more conspicuous petals. As a collective unit the sepals are called
         the <term>calyx</term>, and the collection of petals is called the <term>corolla</term>.
         Together, these two structures are known as the <term>perianth</term> of the flower. The
@@ -11,5 +12,6 @@
             <term>tepal</term> is usually applied when the petals and sepals are not differentiated
         and look similar or the petals are absent and the sepals are colorful. When the flower is in
         bud, the sepals enclose and protect the more delicate floral parts within. Morphologically
-        they are modified leaves.</glossdef>
+        they are modified lea<abbreviated-form keyref=""/>ves.<abbreviated-form keyref=""
+        /></glossdef>
 </glossentry>
