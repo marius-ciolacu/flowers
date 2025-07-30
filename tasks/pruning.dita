@@ -17,8 +17,8 @@
                 the tree. It is therefore typically better to formative prune the tree when juvenile
                 than try to cut off large branches on a mature tree.</p>
             <p><?oxy_comment_start author="John" timestamp="20120510T110753+0300" comment="A list of tools required for prunning should be also provided to the reader (like: 
-Rope Saws, Pole Prunner and Lopper,  Folding Prunner, Portable Buck Saws)."?>Follow
-                these simple steps:<?oxy_comment_end?></p>
+Rope Saws, Pole Prunner and Lopper,  Folding Prunner, Portable Buck Saws)." id="fjy_12q_dgc"?><?oxy_comment_start author="cristibanica" timestamp="20250730T060803+0000" parentID="fjy_12q_dgc" comment="test x test x test x " flag="done" mid="1"?>Follow
+                these simple steps:<?oxy_comment_end mid="1"?><?oxy_comment_end?></p>
         </context>
         <steps>
             <step>
@@ -34,7 +34,7 @@ Rope Saws, Pole Prunner and Lopper,  Folding Prunner, Portable Buck Saws)."?>Fol
             </step>
             <step>
                 <cmd>Clean up the area.
-                    <?oxy_comment_start author="Mary" timestamp="20120510T110831+0300" comment="Burning the pest infested branches should be done under supervision. Please mention this."?>Burn
+                    <?oxy_comment_start author="Mary" timestamp="20120510T110831+0300" comment="Burning the pest infested branches should be done under supervision. Please mention this." flag="done"?>Burn
                     all pest infested branches<?oxy_comment_end?>. </cmd>
             </step>
         </steps>
