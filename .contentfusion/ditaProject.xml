@@ -3,7 +3,7 @@
     <context id="StooNAkYrNlBlSk" name="Flori de Toamna">
         <input href="../autumn_flowers.ditamap"/>
     </context>
-    <context id="cwqSilrouFjeGXj" name="zxcv">
+    <context id="cwqSilrouFjeGXj" name="some name here">
         <input href="../flowers.ditamap"/>
     </context>
     <context id="kYSGeTCXgpZAUoc" name="asdf">
@@ -47,7 +47,7 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
-    <deliverable id="d-test-1752591094849" name="test">
+<deliverable id="d-test-1752591094849" name="test">
         <context idref="ChYuBwNEZuokOUc"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
