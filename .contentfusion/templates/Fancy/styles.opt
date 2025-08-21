@@ -15,6 +15,8 @@
         <parameters>
             <parameter name="webhelp.logo.image" type="filePath" value="resources/logo.png"/>
             <parameter name="webhelp.favicon" type="filePath" value="resources/favicon.ico"/>
+            <parameter name="webhelp.logo.image" type="filePath" value="resources/logo.png"/>
+            <parameter name="webhelp.favicon" type="filePath" value="resources/favicon.ico"/>
             <parameter name="webhelp.show.main.page.tiles" value="yes"/>
             <parameter name="webhelp.show.main.page.toc" value="no"/>
             <parameter name="webhelp.logo.image" type="filePath" value="resources/logo.png"/>

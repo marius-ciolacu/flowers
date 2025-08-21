@@ -2,7 +2,7 @@
 @colors&{"titlesAccentColor":"#494949","labelsAccentColor":"#7b7a7a","linksAccentColor":"#2372de","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
-@aspects&wh-tiles,logo-favicon-selector,preview-selector,page-columns-three,fonts-selector&aspects@
+@aspects&wh-tiles,logo-favicon-selector,preview-selector,page-columns-three,fonts-selector,wh-breadcrumb-colors-white-on-black&aspects@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
 @info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
@@ -53,5 +53,15 @@ body {
   }
 }
 /*wh-tiles*/
+/*wh-breadcrumb-colors-white-on-black*/
+.wh_tools {
+  background-color: #000;
+}
+.wh_breadcrumb ol a {
+  color: #fff;
+}
+.wh_breadcrumb li:not(:last-of-type)::after {
+  color: #fff;
+}
 /*preview-selector*/
 
