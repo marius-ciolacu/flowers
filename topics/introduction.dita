@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="introduction">
-    <title>Introduction modified on branch</title>
+    <title>Introduction
+        <?oxy_delete author="Marius Ciolacu" timestamp="20250829T121854+0000" content="mod"?></title>
     <shortdesc>With just a little bit of care and preparation, any flower garden can be a vibrantly
         colored environment.</shortdesc>
     <body>
@@ -12,3 +13,4 @@
             on climate and specific needs.</p>
     </body> 
 </topic>
+<?oxy_options track_changes="on"?>
