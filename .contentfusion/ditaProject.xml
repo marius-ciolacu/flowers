@@ -59,7 +59,7 @@
         <context idref="ChYuBwNEZuokOUc"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param href="../publishing/roboto" name="webhelp.publishing.template"/>
+            <param href="../publising/roboto" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
