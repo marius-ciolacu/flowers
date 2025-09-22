@@ -1,0 +1,85 @@
+/*#
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tiles,theme-fonts-roboto-open-sans&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
+@info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
+#*/
+/* Bold selection in Publication TOC. WebHelp only. */
+@media screen {
+  .wh_publication_toc .active > .topicref a {
+    font-weight: bold;
+  }
+}
+/*theme-fonts-roboto-open-sans*/
+@font-face {
+  font-family: "Roboto";
+  src: url("resources/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  src: url("resources/Roboto-Italic.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("resources/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 700;
+  src: url("resources/Roboto-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("resources/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  src: url("resources/OpenSans-Italic.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  src: url("resources/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("resources/OpenSans-BoldItalic.ttf");
+}
+@page {
+  font-family: 'Roboto', sans-serif;
+}
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="map/topicref"],
+*[class~='topic/title'],
+*[class~='topic/thead'],
+*[class~="placeholder/figurelist"],
+*[class~="placeholder/tablelist"],
+*[class~="index/groups"]::before,
+*[class~="index/group"] > *[class~="index/label"],
+.wh_publication_title,
+.wh_top_menu,
+.wh_tile_title .topicref,
+.wh_main_page_toc_entry .topicref,
+.wh_index_terms span.wh_first_letter,
+.wh-letters li a {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/*wh-tiles*/
+
