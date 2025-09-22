@@ -55,4 +55,12 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
+    <deliverable id="d-Roboto_style_WebHelp-1758529500810" name="Roboto style WebHelp">
+        <context idref="ChYuBwNEZuokOUc"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param href="../publishing/roboto" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
 </project>
