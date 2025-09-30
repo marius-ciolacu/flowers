@@ -7,11 +7,12 @@
         </profile>
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
-    <deliverable id="d-Flowers_WH-1727787187800" name="Flowers WH">
+    <publication id="pdf" transtype="pdf-css-html5"/>
+    <deliverable id="d-Flowers_WH-1727787187800" name="Flowers PDF">
         <context idref="twuxDMrzFMPoxYZ"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf">
+            <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
