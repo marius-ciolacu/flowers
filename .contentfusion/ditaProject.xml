@@ -19,7 +19,7 @@
         <context idref="twuxDMrzFMPoxYZ"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+            <param href="templates/asdf_branch_template" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
