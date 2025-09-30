@@ -2,10 +2,14 @@
 @colors&{"titlesAccentColor":"#e60a0a","labelsAccentColor":"#da0c0c","linksAccentColor":"#d0021b","backgroundAccentColor":"#d0021b","isDefault":false}&colors@
 @info@STYLES BASKET SELECTIONS METADATA@info@
 @name&styles_basket&name@
-@aspects&wh-tiles,accent-colors-selector&aspects@
+@aspects&wh-tiles,accent-colors-selector,fonts-selector&aspects@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
 @info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
 #*/
+@font-face {
+  font-family: 'BrandingFont';
+  src: url(resources/primaryBrandingFonts.ttf) format('truetype');
+}
 /* Bold selection in Publication TOC. WebHelp only. */
 @media screen {
   .wh_publication_toc .active > .topicref a {
@@ -44,6 +48,36 @@ a:visited {
 }
 *[class~='topic/table'] th {
   background-color: #d0021b;
+}
+/*fonts-selector*/
+@page {
+  font-family: 'BrandingFont', sans-serif;
+}
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="map/topicref"],
+*[class~='topic/title'],
+*[class~='topic/thead'],
+*[class~="placeholder/figurelist"],
+*[class~="placeholder/tablelist"],
+*[class~="index/groups"]::before,
+*[class~="index/group"] > *[class~="index/label"],
+.wh_publication_title,
+.wh_top_menu,
+.wh_tile_title .topicref,
+.wh_main_page_toc_entry .topicref,
+.wh_index_terms span.wh_first_letter,
+.wh-letters li a {
+  font-family: 'BrandingFont', sans-serif;
+}
+body {
+  font-family: 'SecondaryBrandingFont', sans-serif;
 }
 /*wh-tiles*/
 
