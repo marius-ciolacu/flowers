@@ -51,7 +51,7 @@
         <context idref="ChYuBwNEZuokOUc"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param href="templates/O2" name="webhelp.publishing.template"/>
+            <param href="templates/template_from_the_to_be_merged_branch" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
         </publication>
     </deliverable>
