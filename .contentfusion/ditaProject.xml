@@ -47,7 +47,8 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
-<deliverable id="d-test-1752591094849" name="test">
+    <deliverable id="d-test-1752591094849" name="test">
+        <?description {"content":"br"}?>
         <context idref="ChYuBwNEZuokOUc"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
