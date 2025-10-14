@@ -31,7 +31,7 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
-    <deliverable id="d-PDF-1750754163991" name="PDF">
+    <deliverable id="d-PDF-1750754163991" name="WeHe">
         <context idref="ChYuBwNEZuokOUc"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
